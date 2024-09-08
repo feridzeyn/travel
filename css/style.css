@@ -1,17 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-
+:root {
+    --mainFonts: "Open sans", sans-serif;
+}
 header {
     background-image: url('../img/skl.png');
     background-repeat: no-repeat;
     background-size: cover;
+    box-sizing: border-box;
+    
 }
 
 .container {
-    max-width: 1000px;
+    max-width: 1100px;
     margin: auto;
 }
 
@@ -21,34 +27,45 @@ nav {
     padding-top: 25px;
     text-align: center;
     margin-bottom: 220px;
-}
-
-header nav img {
-    font-size: 32px;
-    letter-spacing: 1px;
-    color: #f4f3ee;
-    font-weight: 300;
-    font-family: "Open Sans";
     text-align: center;
 }
 
+
+
+header nav .navbar ul li{
+display: inline-block;
+margin-left: 20px;
+}
+header nav .navbar ul li a{
+    font-family: var(--mainFonts);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: #141414;
+    text-decoration: none;
+}
 header nav i {
-    font-size: 32px;
+    display: none !important;
+    font-size: 35px;
     letter-spacing: 1px;
     color: #f4f3ee;
     font-weight: 300;
-    font-family: "Open Sans";
+    font-family: var(--mainFonts);
     text-align: center;
+    
 }
 
 header .body h1 {
     font-size: 52px;
     letter-spacing: 2px;
-    color: #ffffff;
-    font-weight: 300;
-    font-family: "Open Sans";
+    color: #e6e9ee;
+    font-weight: 700;
+    font-family: var(--mainFonts);
     text-align: center;
     margin-bottom: 40px;
+
 }
 
 header .body input {
@@ -57,6 +74,7 @@ header .body input {
     padding-left: 10px;
     background-color: #ffffff;
     border: none;
+    outline: none;
 }
 
 header .body button {
@@ -68,7 +86,7 @@ header .body button {
     letter-spacing: 1px;
     color: #ffffff;
     font-weight: 700;
-    font-family: "Open Sans";
+    font-family: var(--mainFonts);
     text-align: center;
     text-transform: uppercase;
 
@@ -86,31 +104,32 @@ header .body input::placeholder {
     letter-spacing: 1px;
     color: #8b8b8b;
     font-weight: 400;
-    font-family: "Open Sans";
+    font-family: var(--mainFonts);
 
 }
 
-.first {
+.destination {
     background-color: #eeeeee;
 }
 
-.first h1 {
-    font-size: 16px;
+.destination h1 {
+    font-size: 30px;
     letter-spacing: 0px;
     text-transform: uppercase;
     color: #323232;
     font-weight: 400;
-    font-family: "Montserrat";
-    margin-bottom: 15px;
+    font-family: var(--mainFonts);
+    margin-bottom: 20px;
     padding-top: 60px;
+    text-align: center;
 }
 
-.first p {
-    font-size: 15px;
+.destination p {
+    font-size: 20px;
     letter-spacing: 0px;
     color: #8b8b8b;
     font-weight: 400;
-    font-family: "Open Sans";
+    font-family: var(--mainFonts);
     margin-bottom: 40px;
 
 }
@@ -126,7 +145,7 @@ header .body input::placeholder {
     flex-direction: column;
 }
 
-.about-body .crd {
+.about-body .card {
     display: inline-block;
     width: 240px;
     border-bottom: 2px solid #e1dfd8;
@@ -135,15 +154,24 @@ header .body input::placeholder {
 
 }
 
-.about-body .sekil {
+.about-body .picture {
     width: 240px;
     height: 200px;
     background-image: url(../img/1.png);
     position: relative;
 
 }
+.about-body .picture1{
+    width: 240px;
+    height: 200px;
+    background-image: url(../img/Prague.png);
+    background-position: contain;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
 
-.about-body .sekil span {
+.about-body span {
     position: absolute;
     bottom: 15px;
     right: 15px;
@@ -152,7 +180,7 @@ header .body input::placeholder {
     text-transform: uppercase;
     color: #ffffff;
     font-weight: 400;
-    font-family: "Montserrat";
+    font-family: var(--mainFonts);
     text-align: right;
 }
 
@@ -162,18 +190,18 @@ header .body input::placeholder {
     text-transform: uppercase;
     color: #323232;
     font-weight: 400;
-    font-family: "Montserrat";
+    font-family: var(--mainFonts);
     margin-left: 20px;
 }
 
-.about-body .crd p {
+.about-body .card p {
     width: 180px;
     height: 65px;
     font-size: 13px;
     line-height: 19px;
     color: #696969;
     font-weight: 400;
-    font-family: "Open Sans";
+    font-family: var(--mainFonts);
     margin-left: 25px;
 }
 
@@ -186,7 +214,7 @@ header .body input::placeholder {
     letter-spacing: 2px;
     color: #323232;
     font-weight: 300;
-    font-family: "Open Sans";
+    font-family: var(--mainFonts);
     margin-bottom: 70px;
     padding-top: 80px;
 }
@@ -203,7 +231,7 @@ header .body input::placeholder {
     text-transform: uppercase;
     color: #323232;
     font-weight: 400;
-    font-family: "Montserrat";
+    font-family: var(--mainFonts);
     margin-bottom: 20px;
 }
 
@@ -214,7 +242,7 @@ header .body input::placeholder {
     line-height: 22px;
     color: #8b8b8b;
     font-weight: 400;
-    font-family: "Open Sans";
+    font-family: var(--mainFonts);
 }
 
 .second-card h1 {
@@ -223,7 +251,7 @@ header .body input::placeholder {
     text-transform: uppercase;
     color: #323232;
     font-weight: 400;
-    font-family: "Montserrat";
+    font-family: var(--mainFonts);
     text-align: center;
     margin-bottom: 30px;
 }
@@ -249,7 +277,7 @@ header .body input::placeholder {
     letter-spacing: 1px;
     color: #ffffff;
     font-weight: 700;
-    font-family: "Open Sans";
+    font-family: var(--mainFonts);
     text-align: center;
     text-transform: uppercase;
     margin-bottom: 82px;
@@ -260,7 +288,7 @@ header .body input::placeholder {
     letter-spacing: 1px;
     color: #8b8b8b;
     font-weight: 400;
-    font-family: "Open Sans";
+    font-family: var(--mainFonts);
     margin-left: 10px;
 }
 
@@ -274,7 +302,7 @@ footer p {
     line-height: 22px;
     color: #8b8b8b;
     font-weight: 400;
-    font-family: "Open Sans";
+    font-family: var(--mainFonts);
 }
 
 footer nav {
@@ -291,7 +319,7 @@ footer nav li {
     text-transform: uppercase;
     color: #323232;
     font-weight: 400;
-    font-family: "Montserrat";
+    font-family: var(--mainFonts);
     text-align: center;
     margin-left: 10px;
 }
