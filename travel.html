@@ -9,8 +9,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
         integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="/assets/css/style.css" />
+    <link rel="stylesheet" href="/assets/css/responsive.css">
 </head>
 
 <body>
@@ -19,7 +19,7 @@
         <div class="container">
             <nav>
                 <div class="logo">
-                    <img src="img/logo.png" alt="">
+                    <img src="/assets/img/Logo.png" alt="">
                 </div>
                 <div class="navbar">
                     <ul>
@@ -37,9 +37,24 @@
                         </li>
                     </ul>
                 </div>
-                <i class="fa-solid fa-bars" id=" bar-icon"></i>
+                <i class="fa-solid fa-bars" id="bar_icon" ></i>
+                <div class="navAnimation">
+                    <ul>
+                        <li>
+                            <a href="#" target="_blank">Home</a>
+                        </li>
+                        <li>
+                            <a href="#" target="_blank">Countries</a>
+                        </li>
+                        <li>
+                            <a href="#" target="_blank">About us</a>
+                        </li>
+                        <li>
+                            <a href="#" target="_blank">Contact</a>
+                        </li>
+                    </ul>
+                </div>
             </nav>
-
 
             <div class="body">
                 <h1>
@@ -52,40 +67,15 @@
             </div>
         </div>
     </header>
-
     <section class="destination">
         <div class="container">
-            <h1>Top destinations</h1>
+            <h2>Top destinations</h2>
             <p>Some of the top destinations for your next summer adventure.</p>
-
-
             <div class="about-body">
                 <div class="about-card">
                     <div class="picture">
-                        <span>2000$</span>
+                        <span>5000$</span>
                     </div>
-                    <div class="card">
-                        <h1>amazing australia</h1>
-                        <p>Become inspired to travel to Australia. Discover fantastic things to do & places to go.</p>
-                    </div>
-                </div>
-
-                <div class="about-card">
-                    <div class="picture">
-                        <span>1,095$</span>
-                    </div>
-
-                    <div class="card">
-                        <h1>amazing australia</h1>
-                        <p>Become inspired to travel to Australia. Discover fantastic things to do & places to go.</p>
-                    </div>
-                </div>
-
-                <div class="about-card">
-                    <div class="picture">
-                        <span>1,095$</span>
-                    </div>
-
                     <div class="card">
                         <h1>amazing australia</h1>
                         <p>Become inspired to travel to Australia. Discover fantastic things to do & places to go.</p>
@@ -94,6 +84,30 @@
 
                 <div class="about-card">
                     <div class="picture1">
+                        <span>4000$</span>
+                    </div>
+
+                    <div class="card">
+                        <h1>amazing baku</h1>
+                        <p>Baku, the capital and commercial hub of Azerbaijan, is a low-lying city with coastline along
+                            the Caspian Sea.</p>
+                    </div>
+                </div>
+
+                <div class="about-card">
+                    <div class="picture2">
+                        <span>2500$</span>
+                    </div>
+
+                    <div class="card">
+                        <h1>amazing barcelona</h1>
+                        <p>Barcelona, the cosmopolitan capital of Spain’s Catalonia region, is known for its art and
+                            architecture.</p>
+                    </div>
+                </div>
+
+                <div class="about-card">
+                    <div class="picture4">
                         <span>1500$</span>
                     </div>
 
@@ -107,12 +121,10 @@
         </div>
     </section>
 
-    <section class="second">
+    <section class="accommodation">
         <div class="container">
-
             <h1>Before you leave</h1>
-
-            <div class="second-body">
+            <div class="accommodation-body">
                 <div class="pragraf">
                     <h2>visa & documents</h2>
                     <p>There are some things you should take
@@ -121,7 +133,6 @@
                         required visas and documents needed.
                     </p>
                 </div>
-
                 <div class="pragraf">
                     <h2>Accommodation</h2>
                     <p>There are some things you should take
@@ -139,19 +150,14 @@
                     </p>
                 </div>
             </div>
-
-            <div class="second-card">
+            <div class="accommodation-card">
                 <h1>get hottest deals to your inbox</h1>
-                <div>
+                <form class="email">
                     <input type="search" placeholder="Email address">
                     <button>subscribe</button>
-                </div>
+                </form>
             </div>
-
         </div>
-
-
-
     </section>
     <footer>
         <div class="container">
@@ -159,15 +165,28 @@
                 <p>Copyright © 2014 Travelly. All Rights Reserved. Designed for Despreneur.</p>
 
                 <ul>
-                    <li>home</li>
-                    <li>about</li>
-                    <li>blog</li>
-                    <li>press</li>
-                    <li>contact</li>
+                    <li>
+                        <a href="">Home</a>
+                    </li>
+                    <li>
+                        <a href="">About</a>
+                    </li>
+                    <li>
+                        <a href="">Blog</a>
+                    </li>
+                    <li>
+                        <a href="">Press</a>
+                    </li>
+                    <li>
+                        <a href="">Contact</a>
+                    </li>
                 </ul>
             </nav>
         </div>
     </footer>
+
+
+    <script src="assets/javascript/javascript.js"></script>
 </body>
 
 </html>

@@ -1,0 +1,306 @@
+@media only screen and (max-width:1200px) {
+    .container{
+        max-width: 1000px;
+    }
+} 
+@media only screen and (max-width:992px){
+    .container{
+        max-width: 960px;
+    } 
+    nav {
+        justify-content: space-evenly;
+        margin-bottom: 185px;
+    }
+    header nav .logo img{
+        width: 180px;
+    }
+    header .navbar {
+        display: none;
+    }
+    header nav i {
+       display: inline-block !important;
+        font-size: 34px;
+   
+    }
+
+    header .body h1 {
+        font-size: 44px;
+    }
+    header .body input {
+        width: 300px;
+        height: 38px;
+        padding-left: 9px;
+    }
+    header .body button {
+        width: 118px;
+        height: 38px;
+        font-size: 15px;
+    }
+    header .body .input{
+        padding-bottom: 190px;
+    }
+    .destination h1{
+        font-size: 26px;
+        margin-bottom: 18px;
+    }
+    .destination p{
+        font-size: 18px;
+        margin: 0 0 36px 30px;
+    }
+    .about-card{
+margin-bottom: 20px;
+    }
+    .about-body{
+        padding-bottom: 60px;
+        justify-content: space-around;
+       flex-wrap: wrap;
+    }
+  
+.about-body .card{
+    width: 220px;
+    }
+    .destination .picture, .destination .picture1, .destination .picture2, .destination .picture4{
+        width: 220px;
+        height: 190px;
+    }
+    .about-body h1 {
+        font-size: 13px;
+    }
+    .about-body .card p{
+        width: 150px;
+        height: 55px;
+    }
+
+    .accommodation h1 {
+        font-size: 46px;
+        letter-spacing: 1px;
+        margin-bottom: 50px;
+        padding-top: 50px;
+    }
+    .accommodation .accommodation-body {
+        margin-bottom: 60px;
+    }
+    .accommodation .pragraf h2 {
+        font-size: 15px;
+        margin-bottom: 18px;
+    }
+    .accommodation .pragraf p {
+        width: 250px;
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .accommodation-card h1 {
+        font-size: 15px;
+        margin-bottom: 28px;
+    }
+    .accommodation .accommodation-body{
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin-bottom: 60px;
+    }
+    .accommodation .pragraf{
+        margin-bottom: 20px;
+    }
+    .accommodation .pragraf h2 {
+        font-size: 15px;
+        margin-bottom: 18px;
+    }
+    .accommodation .pragraf p {
+        width: 260px;
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .accommodation-card h1 {
+        font-size: 15px;
+        margin-bottom: 28px;
+    }
+    .accommodation-card input {
+        width: 310px;
+        height: 35px;
+    }
+    .accommodation-card button {
+        width: 140px;
+        height: 35px;
+        font-size: 15px;
+        margin-bottom: 70px;
+    }
+    .accommodation-card input::placeholder {
+        font-size: 15px;
+        padding-left: 8px;
+        margin-left: 8px;
+    }
+    footer p {
+        font-size: 13px;
+        line-height: 20px;
+    }
+    footer nav {
+        padding: 30px 0;
+        
+    }
+    footer nav li {
+        font-size: 13px;
+        margin-left: 8px;
+    }
+    
+} 
+@media only screen and (max-width:576px){
+    .container {
+        max-width: 540px;
+    }
+    header nav {
+        padding-top: 15px;
+        margin-bottom: 80px;
+    }
+    header .logo {
+        margin-left: 5px;
+    }
+    header nav .navbar{
+        margin-right: 5px;
+    }
+    header nav i {
+        font-size: 20px;
+        margin-right: 5px;
+    }
+    header .navAnimation{
+        display: none;
+        width: 200px;
+        height: 150px;
+        top: 10px;
+        right: -1000px;
+        box-shadow: 2px 1px #888888;
+        border: 1px solid gray;
+    }
+    header nav .navAnimation ul li{
+        margin-bottom: 10px;
+        padding-top: 10px;  
+    }
+    header nav .navAnimation ul li a{
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 15px;
+    }
+    .mystyle{
+        padding-top: 40px;
+    }
+    header .body h1 {
+        font-size: 26px;
+        letter-spacing: 1px;
+        margin-bottom: 20px;
+    }
+    header .body input {
+        width: 150px;
+        height: 25px;
+        padding-left: 5px;
+    }
+    header .body button {
+        width: 60px;
+        height: 25px;
+        font-size: 12px;
+        letter-spacing: 0px;
+    }
+    header .body .input {
+        padding-bottom: 90px;
+    }
+    header .body input::placeholder {
+        font-size: 12px;
+        letter-spacing: 0px;
+        font-weight: 300;
+    }
+    .destination h2 {
+        font-size: 22px;
+        margin-bottom: 10px;
+        padding-top: 30px;
+    }
+    .destination p {
+        font-size: 14px;
+        font-weight: 300;
+        margin-bottom: 20px;
+    }
+    .destination .about-body {
+        padding-bottom: 20px;
+    }
+    .destination .about-body .card {
+        width: 150px;
+        border-bottom: 1px solid #e1dfd8;
+    }
+    .destination .picture, .destination .picture1, .destination .picture2,  .destination .picture4 {
+        width: 150px;
+        height: 100px;
+    }
+    .destination .about-body span {
+        bottom: 8px;
+        right: 8px;
+        font-size: 12px;
+        font-weight: 300;
+    }
+    .destination .about-body .about-card h1 {
+        font-size: 12px;
+        margin: 10px 7px;
+    }
+    .destination .about-body .card p {
+        width: 100%;
+        font-size: 10px;
+        line-height: 10px;
+        margin-left: 5px;
+    }
+    .accommodation h1 {
+        font-size: 30px;
+        letter-spacing: 1px;
+        margin-bottom: 30px;
+        padding-top: 30px;
+    }
+    .accommodation .accommodation-body {
+        margin-bottom: 30px;
+    }
+    .accommodation .pragraf h2 {
+        font-size: 13px;
+        margin-bottom: 10px;
+    }
+    .accommodation .pragraf p {
+        width: 140px;
+        font-size: 12px;
+        line-height: 14px;
+    }
+    .accommodation-card h1 {
+        font-size: 13px;
+        margin-bottom: 15px;
+    }
+    .accommodation-card input {
+        width: 130px;
+        height: 25px;
+        padding-left: 5px;
+    }
+    .accommodation-card button {
+        width: 60px;
+        height: 25px;
+        border: none;
+        font-size: 9px;
+        font-weight: 400;
+        margin-bottom: 40px;
+    }
+    .accommodation-card .email{
+        margin-bottom: 30px;
+    }
+    .accommodation-card input::placeholder {
+        font-size: 11px;
+        letter-spacing: 0px;
+        font-weight: 300;
+        padding-left: 5px;
+    }
+    footer p {
+        font-size: 12px;
+        letter-spacing: 0px;
+        line-height: 14px;
+        font-weight: 300;
+    }
+    footer nav {
+        padding: 18px 0; 
+    }
+    footer nav li a{
+        font-size: 11px;
+        font-weight: 300;
+        margin-left: 0px;
+ 
+    }
+
+} 
