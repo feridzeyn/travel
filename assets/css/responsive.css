@@ -145,7 +145,8 @@ margin-bottom: 20px;
 } 
 @media only screen and (max-width:576px){
     .container {
-        max-width: 540px;
+        padding: 0 15px;
+        max-width: 500px;
     }
     header nav {
         padding-top: 15px;
@@ -164,11 +165,6 @@ margin-bottom: 20px;
     header .navAnimation{
         display: none;
         width: 200px;
-        height: 150px;
-        top: 10px;
-        right: -1000px;
-        box-shadow: 2px 1px #888888;
-        border: 1px solid gray;
     }
     header nav .navAnimation ul li{
         margin-bottom: 10px;
@@ -178,9 +174,6 @@ margin-bottom: 20px;
         font-weight: 400;
         font-size: 15px;
         line-height: 15px;
-    }
-    .mystyle{
-        padding-top: 40px;
     }
     header .body h1 {
         font-size: 26px;
